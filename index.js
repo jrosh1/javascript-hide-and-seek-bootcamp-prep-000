@@ -9,12 +9,12 @@ function nestedTarget(){
 function increaseRankBy(n){
   const lis = document.getElementsByClassName('ranked-list')
   
-  for (let i = 0; i < lis.length; i++){
+  for (var i = 0; i < lis.length; i++){
     lis[i].innerHTML = parseInt(lis[i])+n
   }
 }
 
 function deepestChild(){
   var el = document.querySelectorAll('grand-node')
-  
+  return el
 }
